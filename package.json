@@ -1,32 +1,4 @@
 {
-  "_args": [
-    [
-      "document-outerhtml@0.1.0",
-      "/Users/gozala/Projects/freeze-dry"
-    ]
-  ],
-  "_from": "document-outerhtml@0.1.0",
-  "_id": "document-outerhtml@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-dqLljJO1w5I4ycNE2PwuB0IZUqIN/brsJ3ovWgi0md++aR6mp1iGn5vmJ9CIsC98ximoFSJpjGS38YxBLcUdSQ==",
-  "_location": "/document-outerhtml",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "document-outerhtml@0.1.0",
-    "name": "document-outerhtml",
-    "escapedName": "document-outerhtml",
-    "rawSpec": "0.1.0",
-    "saveSpec": null,
-    "fetchSpec": "0.1.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/document-outerhtml/-/document-outerhtml-0.1.0.tgz",
-  "_spec": "0.1.0",
-  "_where": "/Users/gozala/Projects/freeze-dry",
   "author": {
     "name": "Gerben",
     "email": "gerben@treora.com"
