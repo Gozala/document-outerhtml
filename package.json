@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "document-outerhtml@0.1.0",
+      "/Users/gozala/Projects/freeze-dry"
+    ]
+  ],
+  "_from": "document-outerhtml@0.1.0",
+  "_id": "document-outerhtml@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dqLljJO1w5I4ycNE2PwuB0IZUqIN/brsJ3ovWgi0md++aR6mp1iGn5vmJ9CIsC98ximoFSJpjGS38YxBLcUdSQ==",
+  "_location": "/document-outerhtml",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "document-outerhtml@0.1.0",
+    "name": "document-outerhtml",
+    "escapedName": "document-outerhtml",
+    "rawSpec": "0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "0.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/document-outerhtml/-/document-outerhtml-0.1.0.tgz",
+  "_spec": "0.1.0",
+  "_where": "/Users/gozala/Projects/freeze-dry",
+  "author": {
+    "name": "Gerben",
+    "email": "gerben@treora.com"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "doctype-to-string": "^0.1.1"
+  },
+  "description": "Like Element.outerHTML, but for the whole Document.",
+  "devDependencies": {
+    "ava": "^1.0.0-beta.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "window": "^4.2.5"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "dom"
+  ],
+  "license": "CC0-1.0",
+  "main": "lib",
+  "name": "document-outerhtml",
+  "scripts": {
+    "build": "babel -d lib src",
+    "prepublish": "npm run build",
+    "test": "ava"
+  },
+  "version": "0.1.0"
+}
