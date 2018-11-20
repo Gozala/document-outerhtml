@@ -3,27 +3,10 @@
     "name": "Gerben",
     "email": "gerben@treora.com"
   },
-  "ava": {
-    "require": [
-      "babel-register"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
   "dependencies": {
     "doctype-to-string": "^0.1.1"
   },
   "description": "Like Element.outerHTML, but for the whole Document.",
-  "devDependencies": {
-    "ava": "^1.0.0-beta.3",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
-    "window": "^4.2.5"
-  },
   "files": [
     "lib"
   ],
@@ -33,10 +16,5 @@
   "license": "CC0-1.0",
   "main": "lib",
   "name": "document-outerhtml",
-  "scripts": {
-    "build": "babel -d lib src",
-    "prepublish": "npm run build",
-    "test": "ava"
-  },
   "version": "0.1.0"
 }
